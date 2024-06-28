@@ -6611,6 +6611,15 @@
       "description": "Valid for any JSON file",
       "fileMatch": [],
       "url": "https://json.schemastore.org/any.json"
+    },
+    {
+      "name": "Deno config",
+      "description": "Deno configuration file",
+      "fileMatch": [
+        "**/deno.json",
+        "**/deno.jsonc"
+      ],
+      "url": "https://deno.land/x/deno/cli/schemas/config-file.v1.json"
     }
   ]
 }
